@@ -40,13 +40,13 @@
 ```bash
 cd backend
 python mange.py runserver 
-
+```**
 ### Frontend
 ```bash
 cd frontend
 npm install
 npm run dev
- 
+```**
 
 ## 📚 What I Learned
 - การพัฒนา REST API ด้วย Django
