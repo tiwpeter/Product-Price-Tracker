@@ -19,6 +19,12 @@
 - **Database:** SQLite 
 
 ---
+## Others:
+- REST API
+- Background Tasks (Scheduled Jobs)
+- Email Notification (SMTP)
+- Environment Variables (.env)
+
 
 ## ⚙️ How It Works
 1. ผู้ใช้กรอก URL ของสินค้าผ่านหน้าเว็บ
@@ -27,6 +33,20 @@
 4. ส่งอีเมลแจ้งเตือนไปยังผู้ใช้เมื่อพบการเปลี่ยนแปลง
 
 ---
+
+##get started 
+
+### Backend
+```bash
+cd backend
+python mange.py runserver 
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+ 
 
 ## 📚 What I Learned
 - การพัฒนา REST API ด้วย Django
