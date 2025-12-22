@@ -13,19 +13,16 @@
 
 ---
 
-## 🛠️ Tech Stack
-- **Backend:** Django  
-- **Frontend:** React  
-- **Database:** SQLite 
+## 🛠️ Tech Stack & Tools
+
+- **Backend:** Django (REST API)
+- **Frontend:** React
+- **Database:** SQLite
+- **Background Tasks:** Scheduled Jobs / Cron-like process
+- **Email Notification:** SMTP
+
 
 ---
-## Others:
-- REST API
-- Background Tasks (Scheduled Jobs)
-- Email Notification (SMTP)
-- Environment Variables (.env)
-
-
 ## ⚙️ How It Works
 1. ผู้ใช้กรอก URL ของสินค้าผ่านหน้าเว็บ
 2. Backend ประมวลผลและจัดเก็บข้อมูลสินค้า
