@@ -37,13 +37,13 @@
 ### Get started 
 
 
-### Backend
+## Backend
 ```bash
 cd backend
 python mange.py runserver 
 ```
 
-### Frontend
+## Frontend
 ```bash
 cd frontend
 npm install
