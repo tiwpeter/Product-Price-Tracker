@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "dev": "npx concurrently \"yarn dev:backend\" \"yarn dev:frontend\"",
+    "dev:backend": "cd backend && venv\\Scripts\\python manage.py runserver",
+    "dev:frontend": "cd frontend && yarn dev"
+  }
+}
