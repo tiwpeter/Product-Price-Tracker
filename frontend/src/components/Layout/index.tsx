@@ -1,15 +1,12 @@
-import type { FunctionComponent, ReactNode } from "react";
+import type { FunctionComponent } from "react";
+import { Outlet } from "react-router-dom";
 import Navbar from "./Component/Navbar";
 
-type LayoutProps = {
-  children?: ReactNode;
-};
-
-const MainLayout: FunctionComponent<LayoutProps> = ({ children }) => {
+const MainLayout: FunctionComponent = () => {
   return (
     <>
       <Navbar />
-      {children}
+      <Outlet />
     </>
   );
 };
